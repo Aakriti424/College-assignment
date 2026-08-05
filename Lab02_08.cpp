@@ -9,15 +9,18 @@ int main()
 	int length;
 	cout<<"Enter the number of integers:\n";
 	cin>>length;
-	int *array=new int[length];
+	int integer[length];
 	cout<<"Enter the array elememts:\n";
 	for(int i=0;i<length;i++)
 	{
-		cin>>*(array+i);
+		cin>>*(integer+i);
 	}
 	cout<<"Array elements are:\n";
 	for(int i=0; i<length;i++)
 	{
-		cout<<*(array+i)<<" ";
+		cout<<*(integer+i)<<" ";
 	}
+	cout<<"\n--------------------------------\n";
+    cout<<"Lab No.:Unit 2 (8)\tName:Aakriti Bhandari\tRoll No.:27";
+	return 0;
 }
