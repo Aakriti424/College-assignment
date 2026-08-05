@@ -52,5 +52,7 @@ int main()
     cout<<"\nLargest among them is:\t"<<result;
     square(arr,len);
     delete[] arr;
+    cout<<"\n--------------------------------\n";
+    cout<<"Lab No.:Unit 2 (11)\tName:Aakriti Bhandari\tRoll No.:27";
     return 0;
 }
