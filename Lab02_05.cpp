@@ -4,7 +4,7 @@ entered by the user. Display the larger number in the main function.*/
 #include<iostream>
 using namespace std;
 
-int &larger_value(int &num1,int &num2)
+int &larger_value( int &num1,int &num2)
 {
 	if(num1<num2)
 	{
