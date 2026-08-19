@@ -51,12 +51,18 @@ void Bank::deposit()
 void Bank::withdraw()
 {
     float amount;
-    cout<<"Enter the deposit amount:\t";
+    cout<<"Enter the wtihdraw amount:\t";
     cin>>amount;
-    if(balance==0)
+    if(balance<amount)
+    {
         cout<<"You don't have sufficient amount.";
+    }
+        
     else
+    {
         balance-=amount;
+    }
+       
 }
 
 
