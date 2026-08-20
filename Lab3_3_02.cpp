@@ -40,7 +40,7 @@ int main()
     Complex c1,c2,c3;
     cout<<"Enter the first complex number:\n";
     c1.input();
-    cout<<"Enter the first complex number:\n";
+    cout<<"Enter the second complex number:\n";
     c2.input();
 
     c3=c1.add(c2);
