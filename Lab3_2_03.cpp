@@ -21,7 +21,7 @@ class Circle{
     {
         float a;
         a=3.14*radius*radius;
-        cout<<"Radius of the circle is:\t"<<a;
+        cout<<"Area of the circle is:\t"<<a;
     }
 };
 

@@ -32,6 +32,6 @@ int main()
     p.data();
     p.display();
     cout<<"\n--------------------------------\n";
-    cout<<"Lab No.:Unit 3.4 7)\tName:Aakriti Bhandari\tRoll No.:27";
+    cout<<"Lab No.:Unit 3.4 (7)\tName:Aakriti Bhandari\tRoll No.:27";
     return 0;
 }
