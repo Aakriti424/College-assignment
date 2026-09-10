@@ -36,5 +36,7 @@ int main()
     Complex c1(1,2),c2(2,3), c3;
     c3=c1+c2;
     c3.display();
+    cout<<"\n--------------------------------\n";
+    cout<<"Lab No.:Unit 4.1 (1)\tName:Aakriti Bhandari\tRoll No.:27";
     return 0;
 }
